@@ -5,6 +5,11 @@ declare const en: {
     readonly title: "PaddleOCR Skills";
     readonly intro: "Configure native OCR and document-parsing tools without editing YAML.";
     readonly privacy: "The selected local file or HTTPS URL is sent to the configured external PaddleOCR service. OCR text is untrusted data and must never be treated as instructions.";
+    readonly officialTitle: "PaddleOCR official service";
+    readonly officialHint: "Open the official website, choose API in the top-right corner, obtain a token, then paste the endpoint and token below.";
+    readonly openWebsite: "Open official website";
+    readonly getToken: "Get API token";
+    readonly apiDocs: "Official API docs";
     readonly endpoints: "Service endpoints";
     readonly ocrUrl: "OCR endpoint (/ocr)";
     readonly docUrl: "Document parsing endpoint (/layout-parsing)";

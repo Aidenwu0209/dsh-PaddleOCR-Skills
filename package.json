@@ -1,6 +1,6 @@
 {
   "name": "dsh-paddleocr-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PaddleOCR text-recognition and document-parsing skills with native DeepSeek Harness tools and GUI configuration.",
   "keywords": [
     "deepseek-harness",

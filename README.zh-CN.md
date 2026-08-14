@@ -9,6 +9,7 @@
 - `paddleocr_text_recognition`：图片/PDF 文字识别。
 - `paddleocr_doc_parsing`：版面、表格、Markdown 与文档结构解析。
 - GUI 配置 OCR/文档解析 API 地址、超时、`uv` 路径、结果目录。
+- GUI 直接显示 [PaddleOCR 官网](https://www.paddleocr.com)，并提供 API Token 与官方 API 文档的可点击入口。
 - Token 存入 DSH Credentials；GUI 只能设置或删除，无法读取明文。
 - 本地文件限定在当前 Session workspace 内，并进行真实路径/符号链接越界检查。
 - 原始 JSON 默认保存到 `.dsh-paddleocr/results/`，便于审计与后续处理。
@@ -26,11 +27,13 @@ npx @deepseek-ai/dsh web
 
 启动 Web 后打开 **Settings → PaddleOCR**：
 
-1. 填写以 `/ocr` 结尾的完整 HTTPS OCR 地址。
-2. 填写以 `/layout-parsing` 结尾的完整 HTTPS 文档解析地址。
-3. 保留默认 Credential 引用 `PADDLEOCR_ACCESS_TOKEN` 或填写自定义引用名。
-4. 在“访问令牌”中输入 PaddleOCR token，然后保存。
-5. 确认页面显示 API、Token 和 `uv` 均已配置。
+1. 点击页面顶部的“打开 PaddleOCR 官网”，在官网右上角进入 API。
+2. 通过“申请 API Token”获取访问令牌。
+3. 填写以 `/ocr` 结尾的完整 HTTPS OCR 地址。
+4. 填写以 `/layout-parsing` 结尾的完整 HTTPS 文档解析地址。
+5. 保留默认 Credential 引用 `PADDLEOCR_ACCESS_TOKEN` 或填写自定义引用名。
+6. 在“访问令牌”中输入 PaddleOCR token，然后保存。
+7. 确认页面显示 API、Token 和 `uv` 均已配置。
 
 可只配置其中一个 API 地址；对应的另一个 Tool 会在调用时给出明确的未配置错误。
 

@@ -9,6 +9,7 @@ A native DeepSeek Harness bundle adapted from [PaddleOCR-Skills](https://github.
 - `paddleocr_text_recognition` for image/PDF text extraction.
 - `paddleocr_doc_parsing` for layout, tables, Markdown, and document structure.
 - GUI fields for both endpoints, timeouts, `uv`, result storage, and a DSH Credential reference.
+- A visible, clickable [PaddleOCR official website](https://www.paddleocr.com) link, plus direct API-token and official-documentation links in the GUI.
 - Tokens stored through DSH Credentials and never returned to the browser.
 - Real-path workspace containment for local inputs.
 - Auditable raw JSON results under `.dsh-paddleocr/results/` by default.
@@ -24,7 +25,7 @@ npx @deepseek-ai/dsh web
 
 Built `lib/` artifacts are committed, so GitHub installation does not require dependency build-script approval.
 
-Open **Settings → PaddleOCR**, enter the full HTTPS endpoints ending in `/ocr` and `/layout-parsing`, keep or change the default `PADDLEOCR_ACCESS_TOKEN` credential reference, enter the token, and save. Either endpoint may be left blank when only one tool is needed.
+Open **Settings → PaddleOCR**. The panel at the top links directly to the PaddleOCR website, the API-token page, and the official API documentation. Then enter the full HTTPS endpoints ending in `/ocr` and `/layout-parsing`, keep or change the default `PADDLEOCR_ACCESS_TOKEN` credential reference, enter the token, and save. Either endpoint may be left blank when only one tool is needed.
 
 ## Data boundary
 
