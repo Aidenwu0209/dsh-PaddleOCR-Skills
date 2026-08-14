@@ -18,6 +18,20 @@
 
 要求：Node.js 22.19+、DeepSeek Harness、Python 3.9+ 与 [`uv`](https://docs.astral.sh/uv/)。
 
+### 一段 Prompt 安装（最简单）
+
+把下面整段复制给一个可以操作终端的 AI Agent：
+
+```text
+请在这台电脑上安装 https://github.com/Aidenwu0209/dsh-PaddleOCR-Skills 的 DeepSeek Harness GUI 插件。
+1. 检查 Node.js 22.19+、Python 3.9+、npx 和 uv。如果缺少依赖，先解释用途并只使用官方安装方式；未经我允许不要使用 sudo 或修改无关设置。
+2. 执行：npx @deepseek-ai/dsh plugin --profile web add "github:Aidenwu0209/dsh-PaddleOCR-Skills#main"
+3. 启动 npx @deepseek-ai/dsh web，等待终端给出真实的本地 Web 地址，然后打开页面。
+4. 确认 Settings → PaddleOCR 存在，而且能直接看见并点击 https://www.paddleocr.com、API Token 页面和官方 API 文档。
+5. 不要编造、显示或记录我的 Token。在凭据输入处停下来，明确告诉我还需填写哪些 HTTPS API 地址和 Token。
+6. 只有插件安装命令成功、Web 地址可访问且设置面板真实可见时才能说明安装成功，并汇报实际命令、版本、访问地址与验证结果。
+```
+
 ```bash
 npx @deepseek-ai/dsh plugin --profile web add "github:Aidenwu0209/dsh-PaddleOCR-Skills#main"
 npx @deepseek-ai/dsh web

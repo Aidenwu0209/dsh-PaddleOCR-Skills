@@ -18,6 +18,20 @@ A native DeepSeek Harness bundle adapted from [PaddleOCR-Skills](https://github.
 
 Requires Node.js 22.19+, DeepSeek Harness, Python 3.9+, and [`uv`](https://docs.astral.sh/uv/).
 
+### One-prompt installation (easiest)
+
+Copy the entire prompt below into a terminal-capable AI agent:
+
+```text
+Install the DeepSeek Harness GUI plugin from https://github.com/Aidenwu0209/dsh-PaddleOCR-Skills on this computer.
+1. Check Node.js 22.19+, Python 3.9+, npx, and uv. If something is missing, explain it and use its official installer. Do not use sudo or change unrelated settings without my permission.
+2. Run: npx @deepseek-ai/dsh plugin --profile web add "github:Aidenwu0209/dsh-PaddleOCR-Skills#main"
+3. Start npx @deepseek-ai/dsh web, wait for the actual local Web URL, and open it.
+4. Verify that Settings → PaddleOCR exists and displays clickable links to https://www.paddleocr.com, the API-token page, and the official API documentation.
+5. Do not invent, expose, or log my token. Stop at the credential fields and tell me exactly which HTTPS endpoints and token are still required.
+6. Do not claim success until the plugin command succeeds, the Web URL responds, and the Settings panel is visible. Report the commands, versions, URL, and verification result.
+```
+
 ```bash
 npx @deepseek-ai/dsh plugin --profile web add "github:Aidenwu0209/dsh-PaddleOCR-Skills#main"
 npx @deepseek-ai/dsh web
