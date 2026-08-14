@@ -1,0 +1,4 @@
+# DSH PaddleOCR Skills bundle patch.
+- insert:
+    - id: paddleocr-skills
+      name: dsh-paddleocr-skills
