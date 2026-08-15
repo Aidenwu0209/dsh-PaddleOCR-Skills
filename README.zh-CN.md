@@ -32,6 +32,14 @@
 6. 只有插件安装命令成功、Web 地址可访问且设置面板真实可见时才能说明安装成功，并汇报实际命令、版本、访问地址与验证结果。
 ```
 
+在 OpenClaw 中可以安装这个仓库专用的 Setup Skill：
+
+```bash
+openclaw skills install @aidenwu0209/dsh-paddleocr-skills-setup
+```
+
+它会引导 Agent 把插件安装到 DeepSeek Harness，不会把 DSH bundle 错称为 OpenClaw 原生插件。
+
 ```bash
 npx @deepseek-ai/dsh plugin --profile web add "github:Aidenwu0209/dsh-PaddleOCR-Skills#main"
 npx @deepseek-ai/dsh web

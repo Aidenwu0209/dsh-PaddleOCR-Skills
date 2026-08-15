@@ -32,6 +32,15 @@ Install the DeepSeek Harness GUI plugin from https://github.com/Aidenwu0209/dsh-
 6. Do not claim success until the plugin command succeeds, the Web URL responds, and the Settings panel is visible. Report the commands, versions, URL, and verification result.
 ```
 
+From OpenClaw, install the repository-specific setup guide with:
+
+```bash
+openclaw skills install @aidenwu0209/dsh-paddleocr-skills-setup
+```
+
+This guides installation into DeepSeek Harness; it does not misrepresent the
+DSH bundle as an OpenClaw code plugin.
+
 ```bash
 npx @deepseek-ai/dsh plugin --profile web add "github:Aidenwu0209/dsh-PaddleOCR-Skills#main"
 npx @deepseek-ai/dsh web
