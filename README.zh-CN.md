@@ -2,7 +2,12 @@
 
 [English](README.md) | 简体中文
 
-把 [PaddleOCR-Skills](https://github.com/Aidenwu0209/PaddleOCR-Skills) 适配成可直接安装的 DeepSeek Harness bundle：包含两个原生 Tool、两个 Skill，以及 **Settings → PaddleOCR** 图形配置页。
+> **来源与使用量：** 本项目由
+> [PaddleOCR-Skills](https://github.com/Aidenwu0209/PaddleOCR-Skills) 适配而来；该来源在
+> [skills.sh](https://skills.sh/aidenwu0209/paddleocr-skills) 已有 **4.3K+ 次安装**。
+
+这是一个可直接安装的 DeepSeek Harness bundle，包含两个原生 Tool、两个 Skill，以及
+**Settings → PaddleOCR** 图形配置页。
 
 ## 功能
 

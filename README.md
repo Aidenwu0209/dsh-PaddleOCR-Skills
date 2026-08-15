@@ -2,7 +2,13 @@
 
 English | [简体中文](README.zh-CN.md)
 
-A native DeepSeek Harness bundle adapted from [PaddleOCR-Skills](https://github.com/Aidenwu0209/PaddleOCR-Skills). It ships two native tools, two skills, and a dedicated **Settings → PaddleOCR** GUI.
+> **Source and adoption:** This project is adapted from
+> [PaddleOCR-Skills](https://github.com/Aidenwu0209/PaddleOCR-Skills), whose
+> [skills.sh listing](https://skills.sh/aidenwu0209/paddleocr-skills) has
+> **4.3K+ installs** across supported AI agents.
+
+A native DeepSeek Harness bundle with two native tools, two skills, and a dedicated
+**Settings → PaddleOCR** GUI.
 
 ## Included
 
