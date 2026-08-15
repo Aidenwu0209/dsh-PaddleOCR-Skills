@@ -1,11 +1,12 @@
 ---
 name: dsh-paddleocr-skills-setup
-description: Install, launch, configure, and verify the Aidenwu0209/dsh-PaddleOCR-Skills native DeepSeek Harness bundle. Use when a user wants PaddleOCR text recognition and document parsing with the DSH Settings GUI and native tools.
+description: >-
+  Install and configure the native PaddleOCR plugin for DeepSeek Harness (DSH) from the Settings → PaddleOCR GUI. Use for OCR and image-to-text from screenshots, scans, and PDFs; Chinese/CJK text; PDF-to-Markdown; structured document parsing with tables, formulas, layout, and reading order; or DSH endpoint, credential, GUI setup, verification, and troubleshooting.
 license: MIT-0
 metadata:
   author: Aidenwu0209
   repository: https://github.com/Aidenwu0209/dsh-PaddleOCR-Skills
-  version: "1.0.0"
+  version: "1.0.1"
   openclaw:
     emoji: "🛠️"
     homepage: https://github.com/Aidenwu0209/dsh-PaddleOCR-Skills
@@ -15,6 +16,12 @@ metadata:
 
 Install the native DeepSeek Harness bundle. Do not present it as an OpenClaw
 code plugin; this setup skill guides installation into DSH.
+
+Use this setup skill when the request mentions **DeepSeek Harness**, **DSH**,
+the **Settings → PaddleOCR** GUI, or tasks such as **图片转文字 / 截图识字 /
+扫描件 OCR / PDF 转 Markdown / 表格提取 / 公式识别 / 版面分析**. The bundle
+provides native tools for plain OCR and structured document parsing, plus GUI
+fields for service endpoints, credentials, timeouts, `uv`, and result storage.
 
 ## Install and launch
 
