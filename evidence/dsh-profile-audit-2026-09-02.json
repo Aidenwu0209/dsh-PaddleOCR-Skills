@@ -1,0 +1,18 @@
+{
+  "dumpConfig": {
+    "verified": true,
+    "evidence": "2026-09-02: disposable web Profiles on DSH 0.1.2-alpha.3, alpha.4, and alpha.5 composed the plugin-owned paddleocr-skills entry; see COMPATIBILITY.md"
+  },
+  "isolatedRuntime": {
+    "verified": true,
+    "evidence": "2026-09-02: all three disposable Profiles cold-started, returned HTTP 200 for the authenticated Web root and PaddleOCR Settings snapshot, reported pluginVersion 0.1.2, and uninstalled cleanly; see COMPATIBILITY.md"
+  },
+  "realProfile": {
+    "verified": false,
+    "evidence": "Not run: this acceptance intentionally did not read or modify a real user Profile."
+  },
+  "externalReadback": {
+    "verified": false,
+    "evidence": "Not run: PaddleOCR endpoints, credentials, and user-owned test data were not supplied."
+  }
+}

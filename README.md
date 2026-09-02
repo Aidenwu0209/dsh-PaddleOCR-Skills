@@ -22,7 +22,10 @@ A native DeepSeek Harness bundle with two native tools, two skills, and a dedica
 
 ## Install
 
-Requires Node.js 22.19+, DeepSeek Harness, Python 3.9+, and [`uv`](https://docs.astral.sh/uv/).
+Requires Node.js `^22.19.0 || >=24.0.0`, DeepSeek Harness
+`>=0.1.0-rc.6 <0.2.0`, Python 3.9+, and [`uv`](https://docs.astral.sh/uv/).
+Exact disposable-profile install/start/uninstall results for the current DSH
+window are recorded in [COMPATIBILITY.md](COMPATIBILITY.md).
 
 ### One-prompt installation (easiest)
 

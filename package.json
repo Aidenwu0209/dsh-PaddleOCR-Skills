@@ -1,6 +1,6 @@
 {
   "name": "dsh-paddleocr-skills",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "PaddleOCR text-recognition and document-parsing skills with native DeepSeek Harness tools and GUI configuration.",
   "keywords": [
     "deepseek-harness",
@@ -41,7 +41,9 @@
   "files": [
     "lib",
     "skills",
+    "evidence",
     "cordis.patch.yml",
+    "COMPATIBILITY.md",
     "README.md",
     "README.zh-CN.md",
     "UPSTREAM.md",
@@ -56,6 +58,17 @@
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
+    },
+    "compatibility": {
+      "dsh": ">=0.1.0-rc.6 <0.2.0",
+      "dshReleases": {
+        "0.1.2-alpha.3": "compatible",
+        "0.1.2-alpha.4": "compatible",
+        "0.1.2-alpha.5": "compatible"
+      },
+      "profiles": [
+        "web"
+      ]
     },
     "client": {
       "inject": [
